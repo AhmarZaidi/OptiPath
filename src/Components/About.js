@@ -19,7 +19,7 @@ export default function About()
                             </p>
                             <p>
                                 <a className="btn btn-secondary btn-lg ms-5 button" href="/" target="_blank" role="button">Try Now &raquo;</a>
-                                <a className="btn btn-secondary btn-lg ms-5 button" href="https://github.com/Shortest-Distance-Map-Visualizer/map-distance-visualizer" target="_blank" role="button" rel="noreferrer">Github Repository  &raquo;</a>
+                                <a className="btn btn-secondary btn-lg ms-5 button" href="https://github.com/AhmarZaidi/Map-Shortest-Path-Visualizer" target="_blank" role="button" rel="noreferrer">Github Repository  &raquo;</a>
                             </p>
                         </div>
                     </div>
