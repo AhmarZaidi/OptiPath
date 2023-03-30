@@ -9,4 +9,4 @@ It is a path visualizer for delivery of item on multiple locations. It shows two
 
 
 # Try it out
-(deployed) https://map-shortest-path-visualizer.herokuapp.com/
+https://map-shortest-path-visualizer.vercel.app/
