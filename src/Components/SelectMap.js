@@ -24,7 +24,7 @@ export default function SelectMap(props) {
     // JIIT 128
     // const [longitude] = useState(77.365438)
     // const [latitude] = useState(28.519200)
-    var renderCount = 0
+    // var renderCount = 0
 
     useEffect(() => {
 
@@ -32,7 +32,7 @@ export default function SelectMap(props) {
         var map = retMap(props.mapElement, longitude, latitude)
         setMap(map) // render map
         
-        console.log("SelectMap: ", renderCount++)
+        // console.log("SelectMap: ", renderCount++)
 
         let firstClick = false
 
