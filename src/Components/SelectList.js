@@ -6,8 +6,8 @@ export default function SelectList(props)
         <>
             <div className="list">
                 <ul className="list-group list-group-horizontal">
-                    {props.list.map(item => (
-                        <li className="list-group-item">{item.name}</li>
+                    {props.list.map((item, index) => (
+                        <li key={index} className="list-group-item">{item.name}</li>
                         ))}
                 </ul>
             </div>

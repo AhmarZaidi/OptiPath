@@ -16,9 +16,11 @@ export default function SetMap(props) {
     const [latitude] = useState(selectedLocations[0].lngLat.lat)
     const [longitude] = useState(selectedLocations[0].lngLat.lng)
 
+    var renderCount = 0
     
     useEffect(() => {
         
+        console.log("SetMap: ", renderCount++)
         var map = retMap(props.mapElement, longitude, latitude)
         setMap(map)
         map.addControl(new tt.NavigationControl())

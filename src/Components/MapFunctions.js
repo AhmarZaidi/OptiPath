@@ -249,7 +249,11 @@ export const renderRandom = async (map, id, lineColor, lineWidth) =>
 
 
 const calculateButton = async (dist) =>{
-    document.getElementById('instructions').remove()
+    var instructions = document.getElementById('instructions')
+    if(instructions) {
+        instructions.remove()
+    }
+
 
     const detailsHeadingElement = document.getElementById('detailsHeading')
     detailsHeadingElement.innerHTML = 'Results'
